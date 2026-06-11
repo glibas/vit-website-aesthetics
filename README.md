@@ -58,7 +58,7 @@ MIT, see [LICENSE](LICENSE).
 @article{briia2026vit,
   author  = {Briia, Glib and Turkin, Ihor},
   title   = {Automated website aesthetic evaluation using Vision Transformers with progressive fine-tuning},
-  journal = {Radioelectronic and Computer Systems},
+  journal = {},
   year    = {2026}
 }
 ```
