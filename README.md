@@ -4,7 +4,7 @@
 
 Training and evaluation code for the paper:
 
-> G. Briia, I. Turkin. Automated website aesthetic evaluation using Vision Transformers with progressive fine-tuning. *Radioelectronic and Computer Systems*, 2026.
+> G. Briia, I. Turkin. Automated website aesthetic evaluation using Vision Transformers with progressive fine-tuning., 2026.
 
 The paper compares three pre-training paradigms (supervised ViT/DeiT, self-supervised DINOv2, vision-language CLIP) for predicting human aesthetic ratings of website screenshots. Models are adapted with a three-phase fine-tuning protocol: the regression head is trained first, then the last four encoder blocks with layer-wise learning rate decay, then the full network at a reduced rate. CLIP-Base came out on top (Pearson r = 0.680 on the WDP test set, r = 0.720 in 5-fold CV on the R&G dataset).
 
