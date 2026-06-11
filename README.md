@@ -1,5 +1,7 @@
 # Website aesthetics prediction with vision transformers
 
+[![DOI](https://zenodo.org/badge/1265547995.svg)](https://doi.org/10.5281/zenodo.20639731)
+
 Training and evaluation code for the paper:
 
 > G. Briia, I. Turkin. Automated website aesthetic evaluation using Vision Transformers with progressive fine-tuning. *Radioelectronic and Computer Systems*, 2026.
